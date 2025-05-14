@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Muestra las características de la generación de una persona ingresada">
+    <meta name="author" content="Omar Mattos">
+    <meta name="keywords" content="genración, persona, características">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Generacion de Personas</title>
+</head>
+<body class="">
+    <head></head>
+    <main>
+        <section class="container my-5 w-50 bg-body-tertiary p-5 rounded-5">
+            <h1 class="text-center fw-light">👩Datos Personales👨</h1>
+            <form class="row">
+                <div class="mb-3">
+                    <label for="inputNombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="inputNombre" placeholder="Ej: Juan Perez">
+                </div>
+                <div class="mb-3 col-md-6">
+                    <label for="inputEdad" class="form-label">Edad</label>
+                    <input type="text" class="form-control" id="inputEdad" placeholder="Ej: 36">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputDni" class="form-label">DNI</label>
+                    <input type="text" class="form-control" id="inputDni" placeholder="Ej: 38098637">
+                </div>
+                <div class="mb-3 col-md-6">
+                    <label for="selectNombre" class="form-label">Sexo</label>
+                    <select class="form-select" id="selectNombre" required>
+                        <option>Femenino</option>
+                        <option>Masculino</option>
+                    </select>
+                </div>
+                <div class="mb-3 col-md-6">
+                    <label for="inputPesu" class="form-label">Peso</label>
+                    <input type="text" class="form-control" id="inputPesu" placeholder="Ej: 18.9">
+                </div>
+                <div class="mb-3 col-md-6">
+                    <label for="inputAltura" class="form-label">Altura</label>
+                    <input type="text" class="form-control" id="inputAltura" placeholder="Ej: 1.74">
+                </div>
+                <div class="mb-3 col-md-6">
+                    <label for="inputAnio" class="form-label">Año de Nacimiento</label>
+                    <input type="text" class="form-control" id="inputAnio" placeholder="Ej: 1992">
+                </div>
+                <button type="submit" class="btn btn-primary col-md-4 mx-auto d-block">Guardar</button>
+            </form>
+            <div class="row my-4 g-3">  
+                <div class="col-md-6">
+                    <button type="button" class="btn btn-warning w-100">Mostrar Generación</button>
+                </div>
+                <div class="col-md-6">
+                    <button type="button" class="btn btn-success w-100">¿Es mayor de Edad?</button>
+                </div>
+            </div>
+            <div class="alert alert-info">La persona pertenece a la Generación X</div>
+        </section>
+    </main>
+    <footer>
+        <div class="container text-center">
+            <p class="mb-0">&copy; Todos los derechos reservados <br> Omar Mattos 💻</p>
+          </div>
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+</html>
