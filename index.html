@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" data-bs-theme="dark">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Generacion de Personas</title>
 </head>
-<body class="">
+<body class="fondo">
     <head></head>
     <main>
         <section class="container my-5 w-50 bg-body-tertiary p-5 rounded-5">
@@ -37,7 +37,7 @@
                 </div>
                 <div class="mb-3 col-md-6">
                     <label for="inputPesu" class="form-label">Peso</label>
-                    <input type="text" class="form-control" id="inputPesu" placeholder="Ej: 18.9">
+                    <input type="text" class="form-control" id="inputPeso" placeholder="Ej: 18.9">
                 </div>
                 <div class="mb-3 col-md-6">
                     <label for="inputAltura" class="form-label">Altura</label>
@@ -57,13 +57,11 @@
                     <button type="button" class="btn btn-success w-100">¿Es mayor de Edad?</button>
                 </div>
             </div>
-            <div class="alert alert-info">La persona pertenece a la Generación X</div>
+            <div class="alert alert-info d-none">La persona pertenece a la Generación X</div>
         </section>
     </main>
-    <footer>
-        <div class="container text-center">
-            <p class="mb-0">&copy; Todos los derechos reservados <br> Omar Mattos 💻</p>
-          </div>
+    <footer class="text-center py-3 bg-dark-subtle">
+        <p class="mb-0">&copy; Todos los derechos reservados <br> Omar Mattos 💻</p>
     </footer>
     <script src="./js/app.js"></script>
 </body>
