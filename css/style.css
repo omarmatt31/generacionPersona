@@ -1,0 +1,18 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.fondo{
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background: #0a024f;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
